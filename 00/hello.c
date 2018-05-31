@@ -7,12 +7,12 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-	while (str)
+	while (*str)
 		ft_putchar(*(str++));
 }
 
 int	main(void)
 {
-	ft_putstr("Hello, world!");
+	ft_putstr("Hello, world!\n");
 	return (0);
 }
